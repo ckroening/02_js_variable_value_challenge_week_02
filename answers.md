@@ -35,3 +35,39 @@ var numberArray = [1,2,3];
 for(i = 0; i < numberArray.length; i++){
 x = x + numberArray[i];
 }
+
+
+
+
+0. x = 3.
+
+1. x = 3 + 3 = 6.
+
+2. loop 0: x = 6 + 1 = 7;
+loop 1: x = 7 + 1 = 8;
+loop 2: x = 8 + 1 = 9;
+loop 3: x = 9 + 1 = 10.
+
+3. x = 3.
+
+4. function doubleIt(3){
+return 6;
+
+doubleIt(3) = 6;
+6 is not assigned to x. 6 gets thrown out and x turns back to equalling 3.
+
+x = doubleIt(3);
+x = 6.
+(value is now assigned to x.)
+
+5. loop 0: x = 6 + 0 = 6;
+loop 1: x = 6 + 1 = 7;
+loop 2: x = 7 + 2 = 9;
+loop 3: x = 9 + 3 = 12;
+
+Answer is equal to 12.
+
+
+
+
+
