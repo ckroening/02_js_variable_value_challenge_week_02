@@ -1,69 +1,28 @@
+step 0. x = 3.
 
-// In this assignment, you will need to work through each of the steps and figure out what the value of the variable equals each 
-// step of the way. Once you have worked out what the value is at each step, send an email to your instructor letting us
-// know what you think the answers are.
+step 1. x = 3 + 3 = 6.
 
-//variable created:
-var x = 3;
+step 2. loop 0: x = 6 + 1 = 7;
+        loop 1: x = 7 + 1 = 8;
+        loop 2: x = 8 + 1 = 9;
+        loop 3: x = 9 + 1 = 10.
 
-//step 1, what does x after the changes in the code below?
-x = x + x
+step 3. x = 3.
 
-//step 2, what does x after the changes in the code below?
-for(var i = 0; i < 4; i++){
-x = x + 1
-}
+step 4. function doubleIt(3){
+        return 6;
 
-//step 3, what does x after the changes in the code below?
-if(x > 10){
-x = 2;
-} else {
-x = 3;
-}
+        doubleIt(3) = 6;
+        6 is not assigned to x. 6 gets thrown out and x turns back to equalling 3.
 
-//step 4, what does x after the changes in the code below?
-function doubleIt(value){
-return value*2;
-}
+        x = doubleIt(3);
+        x = 6.
+        (value is now assigned to x.)
 
-doubleIt(x);
-x = doubleIt(x);
-
-//step 5, what does x after the changes in the code below?
-var numberArray = [1,2,3];
-
-for(i = 0; i < numberArray.length; i++){
-x = x + numberArray[i];
-}
-
-
-
-
-0. x = 3.
-
-1. x = 3 + 3 = 6.
-
-2. loop 0: x = 6 + 1 = 7;
-loop 1: x = 7 + 1 = 8;
-loop 2: x = 8 + 1 = 9;
-loop 3: x = 9 + 1 = 10.
-
-3. x = 3.
-
-4. function doubleIt(3){
-return 6;
-
-doubleIt(3) = 6;
-6 is not assigned to x. 6 gets thrown out and x turns back to equalling 3.
-
-x = doubleIt(3);
-x = 6.
-(value is now assigned to x.)
-
-5. loop 0: x = 6 + 0 = 6;
-loop 1: x = 6 + 1 = 7;
-loop 2: x = 7 + 2 = 9;
-loop 3: x = 9 + 3 = 12;
+step 5. loop 0: x = 6 + 0 = 6;
+        loop 1: x = 6 + 1 = 7;
+        loop 2: x = 7 + 2 = 9;
+        loop 3: x = 9 + 3 = 12;
 
 Answer is equal to 12.
 
